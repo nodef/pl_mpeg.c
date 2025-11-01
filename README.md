@@ -1,6 +1,6 @@
 # PL_MPEG - MPEG1 Video decoder, MP2 Audio decoder, MPEG-PS demuxer
 
-Single-file MIT licensed library for C/C++
+Single-file MIT licensed library for C/C++, by [Dominic Szablewski](https://github.com/phoboslab).
 
 See [pl_mpeg.h](https://github.com/phoboslab/pl_mpeg/blob/master/pl_mpeg.h) for
 the documentation.
@@ -18,6 +18,19 @@ free now.
 This library does not make use of any SIMD instructions, but because of
 the relative simplicity of the codec it still manages to decode 4k60fps video
 on a single CPU core (on my i7-6700k at least).
+
+
+## Installing
+
+Run:
+```bash
+$ npm i pl_mpeg.c
+```
+
+And then include `pl_mpeg.h` as follows:
+```c
+#include "node_modules/pl_mpeg.c/pl_mpeg.h"
+```
 
 
 ## Building
