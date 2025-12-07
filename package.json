@@ -1,0 +1,32 @@
+{
+  "name": "pl_mpeg.c",
+  "version": "1.2025.2",
+  "description": "Single file C library for decoding MPEG1 Video and MP2 Audio; Dominic Szablewski (2019).",
+  "keywords": [
+    "c",
+    "library",
+    "mpeg1",
+    "mpeg",
+    "video",
+    "audio",
+    "decoder"
+  ],
+  "homepage": "https://github.com/nodef/pl_mpeg.c#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/pl_mpeg.c/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/pl_mpeg.c.git"
+  },
+  "license": "MIT",
+  "author": "wolfram77@gmail.com",
+  "type": "commonjs",
+  "main": "pl_mpeg.h",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "exit"
+  }
+}
