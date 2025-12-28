@@ -1,9 +1,7 @@
-# Asio libs
-pl_mpeg/
-pl_mpeg.h
-
-# Build directory
+# Build artifacts
 .build/
+*.exe
+*.bmp
 
 # Logs
 logs
